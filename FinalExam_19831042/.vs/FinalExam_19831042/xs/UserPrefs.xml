@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{B915CC8B-0C4F-33A0-FEC8-C17813A4635D}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GroundRolling.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GroundRolling.cs" Line="7" Column="42" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FinalExam_19831042" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="58629bf0-95c3-49f2-97fe-63a15207d29a" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
