@@ -5,7 +5,7 @@ using UnityEngine;
 public class GroundRolling : MonoBehaviour
 {
     public float speed = -10, limitZ = -50;
-    public float originZ = 0;
+    public Vector3 originPos;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +19,7 @@ public class GroundRolling : MonoBehaviour
 
         if (transform.position.z < limitZ)
         {
-            transform.position = new Vector3(0, 0, 0);
+            transform.position = originPos;
         }
     }
 }

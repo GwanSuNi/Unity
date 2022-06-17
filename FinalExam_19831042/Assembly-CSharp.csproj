@@ -57,6 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/GroundRolling.cs" />
+    <Compile Include="Assets/Scripts/WallScript.cs" />
+    <Compile Include="Assets/Scripts/BackgroundObjectScript.cs" />
+    <Compile Include="Assets/Scripts/PlayerSciript.cs" />
+    <Compile Include="Assets/Scripts/EnemyScript.cs" />
+    <Compile Include="Assets/Scripts/EnemySpawnerScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
