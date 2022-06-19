@@ -58,17 +58,18 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\EnemySpawnerScript.cs" />
     <Compile Include="Assets\Scripts\WheelScript.cs" />
+    <Compile Include="Assets\Scripts\ItemScript.cs" />
     <Compile Include="Assets\Scripts\EnemyScript.cs" />
     <Compile Include="Assets\Scripts\WallScript.cs" />
     <Compile Include="Assets\Scripts\RotateCar.cs" />
     <Compile Include="Assets\Scripts\PlayerSciript.cs" />
     <Compile Include="Assets\Scripts\BackgroundObjectScript.cs" />
     <Compile Include="Assets\Scripts\GroundRolling.cs" />
-    <Compile Include="Assets\Scripts\ItemScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\DownloadAssets\BrokenVector\LowPolyShaders\Shaders\LowPolyUnlitShader.shader" />
     <None Include="Assets\DownloadAssets\BrokenVector\LowPolyShaders\Shaders\LowPolyPBRShader.shader" />
+    <None Include="Assets\DownloadAssets\POLYGON city pack\Read_me.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
