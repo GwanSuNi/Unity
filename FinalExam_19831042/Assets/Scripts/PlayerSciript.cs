@@ -33,4 +33,22 @@ public class PlayerSciript : MonoBehaviour
             transform.position = new Vector3(limitX, 0.5f, -15);
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("ItemGas"))
+        {
+            Debug.Log("item");
+            Destroy(other.gameObject);
+        }
+        else if (other.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("Enemy");
+            Destroy(other.gameObject);
+        }
+        else
+        {
+            Debug.Log(other.gameObject.name);
+        }
+    }
 }

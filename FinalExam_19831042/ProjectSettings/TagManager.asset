@@ -7,6 +7,7 @@ TagManager:
   - BackgroundObject
   - Wall
   - Enemy
+  - ItemGas
   layers:
   - Default
   - TransparentFX

@@ -5,8 +5,10 @@ using UnityEngine;
 public class EnemySpawnerScript : MonoBehaviour
 {
     public GameObject enemy;
+    public GameObject item;
     public float currentTime = 0;
     public float coolTime = 2f;
+    public static float chance = 15;
 
     // Update is called once per frame
     void Update()
@@ -16,7 +18,15 @@ public class EnemySpawnerScript : MonoBehaviour
         {
             currentTime = 0;
             Debug.Log("COOL 됐다.");
-            Instantiate(enemy, transform.position, transform.rotation);
+            int rnd = Random.Range(0, 100);
+            if (rnd > chance)
+            {
+                Instantiate(enemy, transform.position, transform.rotation);
+            }
+            else
+            {
+                Instantiate(item, transform.position,transform.rotation);
+            }
         }
     }
 }

@@ -10,7 +10,7 @@ public class EnemyScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int rnd = Random.Range(0, 3);
+        int rnd = Random.Range(0, cars.Length);
         Debug.Log("랜덤 : " + rnd);
         cars[rnd].SetActive(true);
     }
@@ -18,7 +18,7 @@ public class EnemyScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0, 0, moveSpeed * Time.deltaTime);
+        transform.Translate( 0,0, moveSpeed * Time.deltaTime);
 
     }
 }
